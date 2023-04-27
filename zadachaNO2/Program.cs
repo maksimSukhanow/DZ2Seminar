@@ -9,7 +9,11 @@
 
 Console.WriteLine("Введите число");
 int num = Convert.ToInt32(Console.ReadLine());
-if (num % 10 > 1 & num % 10 < 5)
+if (num>9 & num <21)
+{
+    Console.WriteLine(num + " Программистов");
+}
+else if (num % 10 > 1 & num % 10 < 5 )
 {
     Console.WriteLine(num + " Программиста");
 }
